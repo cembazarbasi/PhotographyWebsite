@@ -1,0 +1,44 @@
+.page {
+    padding: 20px;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    margin-top: 100px;
+}
+
+.image-wrapper {
+    flex: 0 0 calc(33.33% - 20px); 
+    position: relative;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+    justify-content: center;
+    box-shadow: 3px 4px 6px rgba(0, 0, 0, 0.5);
+    cursor: pointer;
+}
+
+.image-name {
+    margin-top: 5px;
+    font-size: 14px;
+    
+}
+
+@media (max-width: 768px) {
+    .image-wrapper {
+        flex-basis: calc(100% ); /* Set each item to take up 1/2 of the container width for screens <= 768px */
+    }
+}
+
+@media (max-width: 576px) {
+    .image-wrapper {
+        flex-basis: calc(100% ); /* Set each item to take up full container width for screens <= 576px */
+    }
+}

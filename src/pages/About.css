@@ -1,0 +1,37 @@
+.about-container{
+    margin-top: 10%;
+   width: 70%;
+   text-align: left;
+
+}
+.container {
+    display: flex;
+    align-items: center; /* Center items vertically */
+  }
+h2{
+    margin-right: 10px;
+}
+.insta-logo{
+    float: left;
+    max-width: 25px;
+    margin-bottom: 2px;
+    margin-left: 10px;
+}
+.gmail-logo{
+    float: left;
+    max-width: 40px;    
+    margin-left: 20px;
+}
+.img-fluid{
+    max-width: 175px;
+    
+}
+
+@media screen and (max-width: 1025px) {
+    .about-container{
+        margin-top: 17%;
+       width: 80%;
+       text-align: left;
+    
+    }
+}

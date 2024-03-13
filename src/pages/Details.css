@@ -1,0 +1,48 @@
+.items-container{
+    max-width: 50%;
+}
+
+.img-details{    
+    width: 100%;
+    height: auto;
+    padding: 2%;
+    box-shadow:5px 10px 40px 0px grey;
+    
+}
+.pay-description{
+    width: 100%;
+}
+
+.paypal-button-container{
+    width: 50%;
+}
+
+@media (max-width: 1024px) {
+    .items-container{
+        max-width: 100%;
+    }
+    .img-details{    
+        width: 90%;
+        height: auto;
+        padding: 2%;
+        box-shadow:5px 10px 40px 0px grey;
+        
+    }
+    .pay-description{
+        width: 90%;
+        
+    }
+    .description2{
+        overflow-x: visible!important;
+       
+    }
+    
+    .paypal-button-container{
+        width: 90%;
+        margin:0 auto;
+    }
+    .footer{
+        font-size: 24px;
+    }
+  }
+  
